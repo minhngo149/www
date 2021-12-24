@@ -41,18 +41,18 @@ services:
 
   db:
     image: mysql:8.0
-    container_name: 'db'
+    container_name: db
     restart: unless-stopped
     tty: true
     ports:
       - "33061:3306"
     environment:
-      MYSQL_DATABASE: laravel
-      MYSQL_ROOT_PASSWORD: your_mysql_root_password
+      MYSQL_DATABASE: local_db
+      MYSQL_ROOT_PASSWORD: 123123123
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql
     volumes:
-      - ./config/dbdata:/var/lib/mysql/
+      - dbdata:/var/lib/mysql/
     networks:
       - project-network
 

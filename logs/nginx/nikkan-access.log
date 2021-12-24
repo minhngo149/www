@@ -18,3 +18,4 @@
 172.1.0.1 - - [24/Dec/2021:03:44:24 +0000] "GET / HTTP/1.1" 404 75 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
 172.1.0.1 - - [24/Dec/2021:03:44:25 +0000] "GET /favicon.ico HTTP/1.1" 200 0 "http://local.nikkan.com:8081/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
 172.1.0.1 - - [24/Dec/2021:03:44:27 +0000] "GET / HTTP/1.1" 404 75 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+172.1.0.1 - - [24/Dec/2021:03:53:53 +0000] "POST /tenant/api/v1/auth/login HTTP/1.1" 500 251 "-" "PostmanRuntime/7.28.4"

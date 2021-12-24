@@ -35,7 +35,7 @@ RUN docker-php-ext-install bcmath bz2 calendar ctype curl dba dom
 RUN docker-php-ext-install fileinfo exif ftp gettext gmp
 RUN docker-php-ext-install intl json ldap mbstring mysqli
 RUN docker-php-ext-install opcache pcntl pspell
-RUN docker-php-ext-install pdo pdo_mysql pdo_pgsql pdo_sqlite pgsql phar posix
+RUN docker-php-ext-install pdo pdo_mysql
 RUN docker-php-ext-install session shmop simplexml soap sockets sodium
 RUN docker-php-ext-install sysvmsg sysvsem sysvshm
 
@@ -47,7 +47,6 @@ RUN docker-php-ext-install tidy tokenizer zend_test zip
 
 # install pecl extension
 RUN pecl install ds && \
-	pecl install imagick && \
 	pecl install igbinary && \
 	pecl install memcached && \
 	pecl install redis-5.1.0 && \
@@ -85,3 +84,11 @@ RUN apt-get remove -y git && apt-get autoremove -y && apt-get clean && rm -rf /v
 
 # Set working directory
 WORKDIR /var/www
+
+# Add user for laravel application
+RUN groupadd -g 1000 www
+RUN useradd -u 1000 -ms /bin/bash -g www www
+
+COPY --chown=www:www . /var/www
+# Change current user to www
+USER www
