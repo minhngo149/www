@@ -1,0 +1,229 @@
+2021/12/23 10:29:08 [notice] 1#1: using the "epoll" event method
+2021/12/23 10:29:08 [notice] 1#1: nginx/1.21.4
+2021/12/23 10:29:08 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2021/12/23 10:29:08 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2021/12/23 10:29:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/23 10:29:08 [notice] 1#1: start worker processes
+2021/12/23 10:29:08 [notice] 1#1: start worker process 23
+2021/12/23 10:29:08 [notice] 1#1: start worker process 24
+2021/12/24 02:16:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/24 02:16:34 [notice] 23#23: gracefully shutting down
+2021/12/24 02:16:34 [notice] 23#23: exiting
+2021/12/24 02:16:34 [notice] 24#24: gracefully shutting down
+2021/12/24 02:16:34 [notice] 24#24: exiting
+2021/12/24 02:16:34 [notice] 23#23: exit
+2021/12/24 02:16:34 [notice] 24#24: exit
+2021/12/24 02:16:34 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/12/24 02:16:34 [notice] 1#1: worker process 23 exited with code 0
+2021/12/24 02:16:34 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/24 02:16:34 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/12/24 02:16:34 [notice] 1#1: worker process 24 exited with code 0
+2021/12/24 02:16:34 [notice] 1#1: exit
+2021/12/24 02:16:37 [notice] 1#1: using the "epoll" event method
+2021/12/24 02:16:37 [notice] 1#1: nginx/1.21.4
+2021/12/24 02:16:37 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2021/12/24 02:16:37 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2021/12/24 02:16:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/24 02:16:37 [notice] 1#1: start worker processes
+2021/12/24 02:16:37 [notice] 1#1: start worker process 22
+2021/12/24 02:16:37 [notice] 1#1: start worker process 23
+2021/12/24 02:20:54 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/24 02:20:54 [notice] 22#22: gracefully shutting down
+2021/12/24 02:20:54 [notice] 23#23: gracefully shutting down
+2021/12/24 02:20:54 [notice] 23#23: exiting
+2021/12/24 02:20:54 [notice] 22#22: exiting
+2021/12/24 02:20:54 [notice] 23#23: exit
+2021/12/24 02:20:54 [notice] 22#22: exit
+2021/12/24 02:20:54 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/12/24 02:20:54 [notice] 1#1: worker process 23 exited with code 0
+2021/12/24 02:20:54 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/24 02:20:54 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/12/24 02:20:54 [notice] 1#1: worker process 22 exited with code 0
+2021/12/24 02:20:54 [notice] 1#1: exit
+2021/12/24 02:20:58 [notice] 1#1: using the "epoll" event method
+2021/12/24 02:20:58 [notice] 1#1: nginx/1.21.4
+2021/12/24 02:20:58 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2021/12/24 02:20:58 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2021/12/24 02:20:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/24 02:20:58 [notice] 1#1: start worker processes
+2021/12/24 02:20:58 [notice] 1#1: start worker process 24
+2021/12/24 02:20:58 [notice] 1#1: start worker process 25
+2021/12/24 02:22:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/24 02:22:14 [notice] 24#24: gracefully shutting down
+2021/12/24 02:22:14 [notice] 24#24: exiting
+2021/12/24 02:22:14 [notice] 25#25: gracefully shutting down
+2021/12/24 02:22:14 [notice] 24#24: exit
+2021/12/24 02:22:14 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/12/24 02:22:14 [notice] 1#1: worker process 24 exited with code 0
+2021/12/24 02:22:14 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/24 02:22:18 [notice] 25#25: exiting
+2021/12/24 02:22:18 [notice] 25#25: exit
+2021/12/24 02:22:18 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/12/24 02:22:18 [notice] 1#1: worker process 25 exited with code 0
+2021/12/24 02:22:18 [notice] 1#1: exit
+2021/12/24 02:42:33 [notice] 1#1: using the "epoll" event method
+2021/12/24 02:42:33 [notice] 1#1: nginx/1.21.4
+2021/12/24 02:42:33 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2021/12/24 02:42:33 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2021/12/24 02:42:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/24 02:42:33 [notice] 1#1: start worker processes
+2021/12/24 02:42:33 [notice] 1#1: start worker process 22
+2021/12/24 02:42:33 [notice] 1#1: start worker process 23
+2021/12/24 02:48:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/24 02:48:58 [notice] 23#23: gracefully shutting down
+2021/12/24 02:48:58 [notice] 23#23: exiting
+2021/12/24 02:48:58 [notice] 22#22: gracefully shutting down
+2021/12/24 02:48:58 [notice] 22#22: exiting
+2021/12/24 02:48:58 [notice] 23#23: exit
+2021/12/24 02:48:58 [notice] 22#22: exit
+2021/12/24 02:48:58 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/12/24 02:48:58 [notice] 1#1: worker process 23 exited with code 0
+2021/12/24 02:48:58 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/24 02:48:58 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/12/24 02:48:58 [notice] 1#1: worker process 22 exited with code 0
+2021/12/24 02:48:58 [notice] 1#1: exit
+2021/12/24 02:49:02 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:22
+2021/12/24 02:49:03 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:22
+2021/12/24 02:49:04 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:22
+2021/12/24 02:49:06 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:22
+2021/12/24 02:49:07 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:22
+2021/12/24 02:49:09 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:22
+2021/12/24 02:49:13 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:22
+2021/12/24 02:49:20 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:22
+2021/12/24 02:49:33 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx copy.conf:22
+2021/12/24 02:49:59 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:22
+2021/12/24 02:50:51 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 02:51:53 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 02:52:54 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 02:53:34 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 02:53:35 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 02:53:37 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 02:53:38 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 02:53:40 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 02:53:42 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 02:53:46 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 02:53:53 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 02:54:06 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 02:54:33 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 02:55:24 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 02:57:47 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 02:57:48 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 02:57:49 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 02:57:50 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 02:57:52 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 02:57:54 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 02:57:58 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 02:58:05 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 02:58:18 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 02:58:44 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 02:59:36 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 03:00:37 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 03:01:38 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 03:02:38 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 03:02:57 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 03:02:58 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 03:02:59 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 03:03:01 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 03:03:02 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 03:03:04 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 03:03:07 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 03:03:15 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 03:03:29 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 03:03:55 [emerg] 1#1: host not found in upstream "app" in /etc/nginx/conf.d/nginx.conf:23
+2021/12/24 03:04:46 [emerg] 1#1: duplicate location "/" in /etc/nginx/conf.d/nginx.conf:30
+2021/12/24 03:04:47 [emerg] 1#1: duplicate location "/" in /etc/nginx/conf.d/nginx.conf:30
+2021/12/24 03:04:48 [emerg] 1#1: duplicate location "/" in /etc/nginx/conf.d/nginx.conf:30
+2021/12/24 03:04:49 [emerg] 1#1: duplicate location "/" in /etc/nginx/conf.d/nginx.conf:30
+2021/12/24 03:04:51 [emerg] 1#1: duplicate location "/" in /etc/nginx/conf.d/nginx.conf:30
+2021/12/24 03:04:53 [emerg] 1#1: duplicate location "/" in /etc/nginx/conf.d/nginx.conf:30
+2021/12/24 03:04:57 [emerg] 1#1: duplicate location "/" in /etc/nginx/conf.d/nginx.conf:30
+2021/12/24 03:05:04 [emerg] 1#1: duplicate location "/" in /etc/nginx/conf.d/nginx.conf:30
+2021/12/24 03:05:19 [notice] 1#1: using the "epoll" event method
+2021/12/24 03:05:19 [notice] 1#1: nginx/1.21.4
+2021/12/24 03:05:19 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2021/12/24 03:05:19 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2021/12/24 03:05:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/24 03:05:19 [notice] 1#1: start worker processes
+2021/12/24 03:05:19 [notice] 1#1: start worker process 22
+2021/12/24 03:05:19 [notice] 1#1: start worker process 23
+2021/12/24 03:10:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/24 03:10:04 [notice] 23#23: gracefully shutting down
+2021/12/24 03:10:04 [notice] 23#23: exiting
+2021/12/24 03:10:04 [notice] 22#22: gracefully shutting down
+2021/12/24 03:10:04 [notice] 23#23: exit
+2021/12/24 03:10:04 [notice] 22#22: exiting
+2021/12/24 03:10:04 [notice] 22#22: exit
+2021/12/24 03:10:04 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/12/24 03:10:04 [notice] 1#1: worker process 23 exited with code 0
+2021/12/24 03:10:04 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/24 03:10:04 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/12/24 03:10:04 [notice] 1#1: worker process 22 exited with code 0
+2021/12/24 03:10:04 [notice] 1#1: exit
+2021/12/24 03:10:11 [notice] 1#1: using the "epoll" event method
+2021/12/24 03:10:11 [notice] 1#1: nginx/1.21.4
+2021/12/24 03:10:11 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2021/12/24 03:10:11 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2021/12/24 03:10:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/24 03:10:11 [notice] 1#1: start worker processes
+2021/12/24 03:10:11 [notice] 1#1: start worker process 22
+2021/12/24 03:10:11 [notice] 1#1: start worker process 23
+2021/12/24 03:17:29 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/24 03:17:29 [notice] 22#22: gracefully shutting down
+2021/12/24 03:17:29 [notice] 22#22: exiting
+2021/12/24 03:17:29 [notice] 23#23: gracefully shutting down
+2021/12/24 03:17:29 [notice] 22#22: exit
+2021/12/24 03:17:29 [notice] 23#23: exiting
+2021/12/24 03:17:29 [notice] 23#23: exit
+2021/12/24 03:17:29 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/12/24 03:17:29 [notice] 1#1: worker process 22 exited with code 0
+2021/12/24 03:17:29 [notice] 1#1: worker process 23 exited with code 0
+2021/12/24 03:17:29 [notice] 1#1: exit
+2021/12/24 03:17:37 [notice] 1#1: using the "epoll" event method
+2021/12/24 03:17:37 [notice] 1#1: nginx/1.21.4
+2021/12/24 03:17:37 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2021/12/24 03:17:37 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2021/12/24 03:17:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/24 03:17:37 [notice] 1#1: start worker processes
+2021/12/24 03:17:37 [notice] 1#1: start worker process 21
+2021/12/24 03:17:37 [notice] 1#1: start worker process 22
+2021/12/24 03:21:33 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/24 03:21:33 [notice] 22#22: gracefully shutting down
+2021/12/24 03:21:33 [notice] 22#22: exiting
+2021/12/24 03:21:33 [notice] 21#21: gracefully shutting down
+2021/12/24 03:21:33 [notice] 21#21: exiting
+2021/12/24 03:21:33 [notice] 22#22: exit
+2021/12/24 03:21:33 [notice] 21#21: exit
+2021/12/24 03:21:33 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/12/24 03:21:33 [notice] 1#1: worker process 22 exited with code 0
+2021/12/24 03:21:33 [notice] 1#1: signal 29 (SIGIO) received
+2021/12/24 03:21:33 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2021/12/24 03:21:33 [notice] 1#1: worker process 21 exited with code 0
+2021/12/24 03:21:33 [notice] 1#1: exit
+2021/12/24 03:21:38 [notice] 1#1: using the "epoll" event method
+2021/12/24 03:21:38 [notice] 1#1: nginx/1.21.4
+2021/12/24 03:21:38 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2021/12/24 03:21:38 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2021/12/24 03:21:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/24 03:21:38 [notice] 1#1: start worker processes
+2021/12/24 03:21:38 [notice] 1#1: start worker process 22
+2021/12/24 03:21:38 [notice] 1#1: start worker process 23
+2021/12/24 03:39:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/12/24 03:39:49 [notice] 23#23: gracefully shutting down
+2021/12/24 03:39:49 [notice] 22#22: gracefully shutting down
+2021/12/24 03:39:49 [notice] 23#23: exiting
+2021/12/24 03:39:49 [notice] 22#22: exiting
+2021/12/24 03:39:49 [notice] 22#22: exit
+2021/12/24 03:39:49 [notice] 23#23: exit
+2021/12/24 03:39:49 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/12/24 03:39:49 [notice] 1#1: worker process 23 exited with code 0
+2021/12/24 03:39:49 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/12/24 03:39:49 [notice] 1#1: worker process 22 exited with code 0
+2021/12/24 03:39:49 [notice] 1#1: exit
+2021/12/24 03:39:54 [notice] 1#1: using the "epoll" event method
+2021/12/24 03:39:54 [notice] 1#1: nginx/1.21.4
+2021/12/24 03:39:54 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2021/12/24 03:39:54 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2021/12/24 03:39:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/12/24 03:39:54 [notice] 1#1: start worker processes
+2021/12/24 03:39:54 [notice] 1#1: start worker process 24
+2021/12/24 03:39:54 [notice] 1#1: start worker process 25
