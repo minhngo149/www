@@ -40,19 +40,20 @@ services:
       - project-network
 
   db:
-    image: mysql:8.0
+    build:
+      context: ./bin/mysql
+      dockerfile: Dockerfile
     container_name: db
     restart: unless-stopped
     tty: true
     ports:
       - "33061:3306"
     environment:
-      MYSQL_DATABASE: local_db
-      MYSQL_ROOT_PASSWORD: 123123123
-      SERVICE_TAGS: dev
-      SERVICE_NAME: mysql
+      MYSQL_DATABASE: db
+      MYSQL_ROOT_PASSWORD: docker_local_db_pw
     volumes:
       - dbdata:/var/lib/mysql/
+      - ./bin/mysql/init:/docker-entrypoint-initdb.d/
     networks:
       - project-network
 
