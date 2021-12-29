@@ -11,6 +11,9 @@
 
 2. Thay đổi thông tin (config, web server, db,...)
 
+3. Thêm vhosts vào OS (macOs: /etc/vhosts/, windows: không nhớ)
+ex: 127.0.0.1 local.app1.com
+
 3. Chạy môi trường
 docker-compose up -d build
 
