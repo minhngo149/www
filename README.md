@@ -1,21 +1,41 @@
-## Cài đặt môi trường local với docker
-0. Chuẩn bị
-- Cài đặt docker desktop (macOs, Windows)
-- Clone bộ source code: https://github.com/minhngo149/www.git
+# How to setup
 
-1. Tổ chức folders
-- sources: nơi chứa các source codes của dự án (app1, app2,...)
-- bin: nơi thiết lập các script init source code
-- config: nơi thay đổi thông tin config của source code (php.ini, my.cnf,...)
-- logs/nginx: nơi lưu logs của nginx
+## Prepare
 
-2. Thay đổi thông tin (config, web server, db,...)
+```text
+Install docker desktop (https://www.docker.com/products/docker-desktop)
+Clone source code (https://github.com/minhngo149/www.git)
+```
 
-3. Thêm vhosts vào OS (macOs: /etc/vhosts/, windows: không nhớ)
-ex: 127.0.0.1 local.app1.com
+## Structure description
 
-3. Chạy môi trường
+```text
+./sources: This is the location of the project sites 
+./bin: Setup something when docker-compose build
+./config: Overwrite config (php.ini, mysql.cnf,...)
+./logs/nginx: The location of nginx logs (access, error)
+```
+
+## Add new vhost
+
+```text
+127.0.0.1 local.app1.com local.app2.com
+```
+
+## Docker compose build
+
+```bash
+#!/bin/bash
+
 docker-compose up -d build
+```
 
-4. Tắt môi trường
+Open new tab on browser: local.app1.com (local.app2.com)
+
+## Shutdown
+
+```bash
+#!/bin/bash
+
 docker-compose down
+```
